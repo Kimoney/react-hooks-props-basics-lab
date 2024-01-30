@@ -2,7 +2,6 @@ import React from "react";
 import Links from "./Links.js";
 
 function About(props) {
-  console.log(props.links)
   if(!props.bio){
     return null;
   } else 
