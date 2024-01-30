@@ -12,7 +12,7 @@ function App() {
     <div>
       <NavBar />
       <Home name="Lizza" color="firebrick" city="New York"/>
-      <About />
+      <About bio="I made this!" />
     </div>
   );
 }
