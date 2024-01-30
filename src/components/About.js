@@ -1,6 +1,8 @@
 import React from "react";
+import Links from "./Links.js";
 
 function About(props) {
+  console.log(props.links)
   if(!props.bio){
     return null;
   } else 
@@ -10,6 +12,7 @@ function About(props) {
       <p>{props.bio}</p>
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       {/* add your <Links /> component here */}
+      <Links github="https://github.com/liza" linkedin="https://www.linkedin.com/in/liza/"/>
     </div>
   );
 }
